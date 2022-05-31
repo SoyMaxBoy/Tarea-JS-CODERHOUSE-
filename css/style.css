@@ -1,0 +1,15 @@
+* {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+  margin: 20% 43%;
+}
+
+.Version {
+  color: aqua;
+  padding-top: 13vh;
+  padding-left: 95%;
+}
