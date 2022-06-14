@@ -1,3 +1,13 @@
+let d = new Date();
+document.getElementById("hora").innerHTML =
+  "<p>Hora Actual: " +
+  d.getHours() +
+  ":" +
+  d.getMinutes() +
+  ":" +
+  d.getSeconds() +
+  "</p>";
+
 function confirmadorEmail(userEmail, confirmUserEmail) {
   while (userEmail != "" && confirmUserEmail != "") {
     if (userEmail == confirmUserEmail) {

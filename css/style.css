@@ -10,11 +10,16 @@ body {
 h1 {
   display: flex;
   margin-top: 10%;
-  margin-bottom: 15%;
+
   justify-content: center;
 }
-.Versiones {
+
+#hora {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15%;
 }
+
 .buildsTittle {
   display: flex;
   justify-content: center;
